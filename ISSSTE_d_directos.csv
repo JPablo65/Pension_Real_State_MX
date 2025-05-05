@@ -1,0 +1,30 @@
+Campo;Campo obligatorio;Tipo de dato;Descripcion;Observaciones
+id;SI;Numerico;Numero consecutivo de uso interno;Numero consecutivo que permite identificar a un derechohabiente
+anio;SI;Numerico;Anio del padron;Anio al que corresponde el padron
+mes;SI;Numerico;Mes del padron;Mes al que corresponde el padron
+nombre;SI;Texto;Nombre(s);Apellido paterno del derechohabiente
+paterno;SI;Texto;Apellido Paterno;Apellido materno del derechohabiente
+materno;SI;Texto;Apellido Materno;Nombre del derechohabiente
+sexo;SI;Texto;Sexo del Pensionado (Hombre/Mujer);Sexo del derechohabiente
+primer_ramo;SI;Numerico;Clave de la primera Dependencia o Entidad donde laboro;Identificador de la primera Dependencia donde laboro el derechohabiente
+primer_ramo_des;SI;Texto;Nombre de la primera Dependencia o Entidad donde laboro;Descripcion de la primera Dependencia donde laboro el derechohabiente
+primera_fecha;SI;Fecha;Primera fecha de cotizaci½n al Instituto;Primera fecha de cotizacion al Instituto
+ult_ramo;SI;Numerico;Clave de la ultima Dependencia o Entidad donde laboro;Identificador de la ultima Dependencia donde laboro el derechohabiente
+ult_ramo_des;SI;Texto;Nombre de la ultima Dependencia o Entidad donde laboro;Descripcion de la ultima Dependencia donde laboro el derechohabiente
+ult_fecha;SI;Fecha;Ultima fecha de cotizaci½on al Instituto;Ultima fecha de cotizacion al Instituto
+tiempo_serv_trab;SI;Texto;Tiempo de servicios cotizado al Instituto (aa/mm/dd);Tiempo de servicios cotizado al Instituto (aa/mm/dd)
+tiempo_serv;SI;Numerico;Tiempo de servicios cotizado al Instituto en anualidad;Anios cotizados al instituto
+ent_pen;SI;Numerico;Clave de la Delegacion Estatal o Regional donde tramito el otorgamiento de la pension;Identificador de la Delegacion donde tramito la pension
+ent_pen_des;SI;Texto;Nombre de la Delegacion Estatal o Regional donde tramito el otorgamiento de la pension;Descripcion de la Delegacion donde tramito la pension
+tip_pen_org;SI;Numerico;Clave del tipo de pension de origen;Identificador del tipo de pension de origen
+tip_pen_org_des;SI;Texto;Nombre del tipo de pension de origen;Descripcion del tipo de pension de origen
+porcentaje;SI;Decimal;Porcentaje de la pension otorgada;Porcentaje de la pension
+tip_pen_act;SI;Numerico;Clave del tipo de pension activa;Identificador del tipo de pension activa
+tip_pen_act_des;SI;Texto;Nombre del tipo de pension activa;Descripcion del tipo de pension activa
+fecha_inidi;SI;Fecha;Fecha de inicio de pension;Fecha en que se otorgo la pension
+alta_nomina;SI;Fecha;Fecha de alta en nomina;Fecha en que la pension se dio de alta a nomina
+ent_pago;SI;Numerico;Clave de la Delegacion Estatal o Regional donde radica el pago de la pension;Identificador de la Delegacion donde se realiza el pago de la pension
+ent_pago_des;SI;Texto;Nombre de la Delegacion Estatal o Regional donde radica el pago de la pension;Descripcion de la Delegacion donde se realiza el pago de la pension.
+importe_pen;SI;Decimal;Importe de la pension;Monto de la pension
+importe_msm;SI;Numerico;Multiplos de salario minimo correspondientes al importe de la pension;Multiplos de salario minimo correspondientes al importe de la pension
+neto_pagar;SI;Decimal;Importe neto pagado al pensionado;Monto neto pagado al pensionado
